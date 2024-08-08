@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.icon{
+   width: 40px;
+}
+.buscar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: skyblue;
+	padding: 10px;
+	height: 80px;
+	border-radius: 40px;
+}
+
+.buscar-texto{
+	border: none;
+	background: none;
+	outline: none;
+	color: white;
+	font-size: 20px;
+	float: left;
+	line-height: 60px;
+	transition: .3s;
+	width:0;
+}
+
+.boton-buscar{
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}

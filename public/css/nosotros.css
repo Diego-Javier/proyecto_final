@@ -1,0 +1,232 @@
+*{
+    margin: 0; padding: 0;
+}
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.bloque
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.centrar
+{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+.logo
+{
+    color: darkgray; margin-top: 10px;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+.menu-principal
+{
+    width: 50%;
+    float: right;
+    border: 0px solid #fff;
+    background-color: transparent;
+    border-radius: 7px;
+    
+}
+
+.menu-principal ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+
+
+}
+.menu-principal ul li a
+{
+    color: beige;
+    text-decoration: none;
+}
+.izquierda, .derecha{
+    width: 45%;
+    height: auto; overflow: hidden;
+    border: 0px solid cornsilk; 
+    display: inline-block;
+}
+.izquierda
+{
+    float: left; text-align: left; }
+
+    .derecha{ float: right;}
+    
+    .subtitulo 
+    {
+        color: beige;
+    }
+    .titulo-principal
+    {
+        color: #fff;
+        font-size: 60px;
+    }
+.descripcion 
+{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+.boton
+{
+    padding: 17px 35px;
+    background-color: rgb(0, 132, 255);
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+.img-pres
+{
+    width: 90%;
+    padding-top: -10px;
+}
+.logofont
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 40px;
+    
+}
+.logofont-2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+
+
+
+.hero {
+    padding-top: 50px;
+    width: 100%;
+    height: 70vh;
+    background: url(imagenes/uni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+
+.h2-sub {
+    padding-top: 100px;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: #1181E6;
+    font-weight: 600;
+    line-height: .4;
+    
+}
+
+.fil {
+    text-transform: uppercase;
+    font-size: 3rem;
+    
+}
+
+.head {
+    color: #fff;
+    font-size: 3.7rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .5rem;
+}
+
+.he-des h5 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+}
+
+
+
+
+section .nosotros,
+section .video{
+    display: flex;
+    width: 90%;
+    margin: 25px auto;
+
+}
+
+section .nosotros .text,
+section .video .text{
+    width: 50%;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    
+}
+
+.text .tit h1{
+    color: #1181E6;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.text p{
+    font-size: 18px;
+    font-weight: 450;
+    text-align: justify;
+}
+
+section .nosotros .img{
+    width: 50%;
+}
+
+section .nosotros .img img{
+    width: 100%;
+}
+
+section .video .vd{
+    width: 50%;
+    position: relative;
+}
+
+section .video .vd iframe{
+    width: 100%;
+    height: 300px;
+}
+
+section .texthis{
+    display: flex;
+    margin: auto;
+    width: 50%;
+
+}
+
+@media (max-width:928px){
+    section .nosotros .text,
+    section .video .text,
+    section .nosotros .img,
+    section .video .vd{
+        width: 100%;
+    }
+
+    section .video{
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+
+
